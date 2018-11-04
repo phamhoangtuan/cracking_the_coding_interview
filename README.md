@@ -1,7 +1,9 @@
 # Cracking the Coding Interview, 6th edition
+
 Trying to solve programming questions in this book
 
 # Purposes
+
 - Learning how to use git, gitignore
 - Learning how to write good README with beautiful Markdown format
 - Learning how to use Makefile
@@ -11,6 +13,7 @@ Trying to solve programming questions in this book
 - Learning how to solve algorithm questions with optimal solution
 
 # Instructions
+
 ## Command to setup environment
 
 ## Command to run in local
