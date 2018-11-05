@@ -2,6 +2,12 @@
 
 Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
-# Steps to optimize:
+# Approaches:
 
-- Using hash table
+- **Using hash table**:
+
+- **Sort and compare characters**:
+
+- **Using a boolean array**:
+
+- **Using bit operator**:
