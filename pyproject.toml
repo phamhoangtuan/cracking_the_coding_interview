@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "ctci6"
+version = "0.1.0"
+description = "Cracking the Coding Interview 6th Edition"
+authors = ["Tuan Pham <phamhoangtuan.it@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+black = "~23.1.0"
+flake8 = "~6.0.0"
+isort = "~5.12.0"
+mypy = "~1.1.1"
+pylint = "~2.17.0"
+pytest = "~7.2.2"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+# 3rd party import
+ignore_missing_imports = true
+# dynamic typing
+disallow_any_unimported = false
+disallow_any_expr = false
+disallow_any_decorated = false
+disallow_any_generics = false
+disallow_subclassing_any = true
+# platform
+python_version = "3.10"
+# untyped
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+# None and Optional
+no_implicit_optional = true
+# Warnings
+warn_return_any = false
+warn_unreachable = true
+# Misc
+pretty = true
+
+[tool.pylint]
+disable = "C0114, C0115, C0116"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
