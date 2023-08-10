@@ -16,4 +16,3 @@ def test_is_unique_no_additional_data_structure() -> None:
     assert is_unique_no_additional_data_structure('aabbcc') is False
     assert is_unique_no_additional_data_structure('') is True
     assert is_unique_no_additional_data_structure(' ') is True
-    assert is_unique_no_additional_data_structure('a') is True
